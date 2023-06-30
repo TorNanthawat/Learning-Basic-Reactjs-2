@@ -1,0 +1,41 @@
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input{
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* input:focus{
+    outline: none;
+} */
+
+.btn{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn:disabled {
+    background-color: rgb(130, 130, 130);
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
